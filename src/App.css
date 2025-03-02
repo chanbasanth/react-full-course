@@ -1,4 +1,9 @@
-.cvv {
-    
-    text-align: center;
+.cvv{
+    text-align:center;
+    color : red;
+}
+
+.vv{
+    margin:10px;
+    border-color:red;
 }

@@ -1,12 +1,11 @@
-import React , {useState} from "react"; 
+import React from "react"; 
 import "./App.css";
+import Index from "./useState/final/5-useState-example.js";
 
-function App() {
-  useState()
-  useState()
-  return (
+const App =() => {
+    return( 
     <div className="cvv">
-      <h1>Hello Hooks</h1>
+     <Index/>
     </div>
   );
 }
