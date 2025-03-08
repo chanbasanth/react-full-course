@@ -1,6 +1,6 @@
 import React from "react"; 
 import "./App.css";
-import Index from "./useState/final/5-useState-example.js";
+import Index from "./useReduce/useReducer-2.js"; 
 
 const App =() => {
     return( 

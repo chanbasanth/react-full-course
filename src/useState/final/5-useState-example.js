@@ -30,7 +30,7 @@ const Index = () => {
             id: ""
         });
     };
-
+   
     const handleDelete = (id) => {
         const filteredData = list.filter((eachId) => eachId.id !== id);
         setList(filteredData);
@@ -93,6 +93,11 @@ const Index = () => {
             </form>
             <hr />
             <ul>
+                {
+                list.length === 0 && <img alt = "Loading..." style = {{width:"400px", height:"500Px"}}
+                    src = "https://img.freepik.com/free-vector/removing-goods-from-basket-refusing-purchase-changing-decision-item-deletion-emptying-trash-online-shopping-app-laptop-user-cartoon-character-vector-isolated-concept-metaphor-illustration_335657-2843.jpg?ga=GA1.1.1625023119.1730789999&semt=ais_hybrid"/> 
+                
+                }
                 {list.map((eachobj) => {
                     const { text, id } = eachobj;
                     return (
